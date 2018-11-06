@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0000000000000000ABCD1235 /* ALClassSwizzler.framework in (null) */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1236 /* ALClassSwizzler.framework */; };
+		0000000000000000ABCD1237 /* ALObserve.framework in (null) */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1238 /* ALObserve.framework */; };
+		0000000000000000ABCD1239 /* ALParser.framework in (null) */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD123A /* ALParser.framework */; };
+		0000000000000000ABCD123B /* ALBind.framework in (null) */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD123C /* ALBind.framework */; };
+		0000000000000000ABCD123D /* ALObservableContainers.framework in (null) */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD123E /* ALObservableContainers.framework */; };
+		0000000000000000ABCD123F /* ALMultiDelegate.framework in (null) */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1240 /* ALMultiDelegate.framework */; };
+		0000000000000000ABCD1241 /* ALTableViewHelper.framework in (null) */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1242 /* ALTableViewHelper.framework */; };
+		0000000000000000ABCD1243 /* ALCollectionViewHelper.framework in (null) */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1244 /* ALCollectionViewHelper.framework */; };
+		0000000000000000ABCD1245 /* ALViewListHelper.framework in (null) */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1246 /* ALViewListHelper.framework */; };
+		0000000000000000ABCD1247 /* ALViewDescriptions.framework in (null) */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1248 /* ALViewDescriptions.framework */; };
+		0000000000000000ABCD124B /* ALBind.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD123C /* ALBind.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD124C /* ALMultiDelegate.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1240 /* ALMultiDelegate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD124D /* ALTableViewHelper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1242 /* ALTableViewHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD124E /* ALCollectionViewHelper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1244 /* ALCollectionViewHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD124F /* ALViewListHelper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1246 /* ALViewListHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD1250 /* ALParser.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD123A /* ALParser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD1251 /* ALViewDescriptions.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1248 /* ALViewDescriptions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD1252 /* ALObserve.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1238 /* ALObserve.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD1253 /* ALClassSwizzler.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1236 /* ALClassSwizzler.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD1254 /* ALObservableContainers.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD123E /* ALObservableContainers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39742037219052E200FF84B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39742036219052E200FF84B4 /* AppDelegate.swift */; };
 		39742039219052E200FF84B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39742038219052E200FF84B4 /* ViewController.swift */; };
 		3974203C219052E200FF84B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3974203A219052E200FF84B4 /* Main.storyboard */; };
@@ -33,7 +53,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0000000000000000ABCD124A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0000000000000000ABCD124B /* ALBind.framework in CopyFiles */,
+				0000000000000000ABCD124C /* ALMultiDelegate.framework in CopyFiles */,
+				0000000000000000ABCD124D /* ALTableViewHelper.framework in CopyFiles */,
+				0000000000000000ABCD124E /* ALCollectionViewHelper.framework in CopyFiles */,
+				0000000000000000ABCD124F /* ALViewListHelper.framework in CopyFiles */,
+				0000000000000000ABCD1250 /* ALParser.framework in CopyFiles */,
+				0000000000000000ABCD1251 /* ALViewDescriptions.framework in CopyFiles */,
+				0000000000000000ABCD1252 /* ALObserve.framework in CopyFiles */,
+				0000000000000000ABCD1253 /* ALClassSwizzler.framework in CopyFiles */,
+				0000000000000000ABCD1254 /* ALObservableContainers.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0000000000000000ABCD1236 /* ALClassSwizzler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALClassSwizzler.framework; path = "../Framework Central/so-answer-2/iphoneos/ALClassSwizzler.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD1238 /* ALObserve.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALObserve.framework; path = "../Framework Central/so-answer-2/iphoneos/ALObserve.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD123A /* ALParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALParser.framework; path = "../Framework Central/so-answer-2/iphoneos/ALParser.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD123C /* ALBind.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBind.framework; path = "../Framework Central/so-answer-2/iphoneos/ALBind.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD123E /* ALObservableContainers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALObservableContainers.framework; path = "../Framework Central/so-answer-2/iphoneos/ALObservableContainers.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD1240 /* ALMultiDelegate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALMultiDelegate.framework; path = "../Framework Central/so-answer-2/iphoneos/ALMultiDelegate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD1242 /* ALTableViewHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALTableViewHelper.framework; path = "../Framework Central/so-answer-2/iphoneos/ALTableViewHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD1244 /* ALCollectionViewHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALCollectionViewHelper.framework; path = "../Framework Central/so-answer-2/iphoneos/ALCollectionViewHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD1246 /* ALViewListHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALViewListHelper.framework; path = "../Framework Central/so-answer-2/iphoneos/ALViewListHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD1248 /* ALViewDescriptions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALViewDescriptions.framework; path = "../Framework Central/so-answer-2/iphoneos/ALViewDescriptions.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39742033219052E200FF84B4 /* so-answer-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "so-answer-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39742036219052E200FF84B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39742038219052E200FF84B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +106,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0000000000000000ABCD1235 /* ALClassSwizzler.framework in (null) */,
+				0000000000000000ABCD1237 /* ALObserve.framework in (null) */,
+				0000000000000000ABCD1239 /* ALParser.framework in (null) */,
+				0000000000000000ABCD123B /* ALBind.framework in (null) */,
+				0000000000000000ABCD123D /* ALObservableContainers.framework in (null) */,
+				0000000000000000ABCD123F /* ALMultiDelegate.framework in (null) */,
+				0000000000000000ABCD1241 /* ALTableViewHelper.framework in (null) */,
+				0000000000000000ABCD1243 /* ALCollectionViewHelper.framework in (null) */,
+				0000000000000000ABCD1245 /* ALViewListHelper.framework in (null) */,
+				0000000000000000ABCD1247 /* ALViewDescriptions.framework in (null) */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +136,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0000000000000000ABCD1255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000ABCD1248 /* ALViewDescriptions.framework */,
+				0000000000000000ABCD1246 /* ALViewListHelper.framework */,
+				0000000000000000ABCD1244 /* ALCollectionViewHelper.framework */,
+				0000000000000000ABCD1242 /* ALTableViewHelper.framework */,
+				0000000000000000ABCD1240 /* ALMultiDelegate.framework */,
+				0000000000000000ABCD123E /* ALObservableContainers.framework */,
+				0000000000000000ABCD123C /* ALBind.framework */,
+				0000000000000000ABCD123A /* ALParser.framework */,
+				0000000000000000ABCD1238 /* ALObserve.framework */,
+				0000000000000000ABCD1236 /* ALClassSwizzler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3974202A219052E100FF84B4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +160,7 @@
 				3974204A219052E600FF84B4 /* so-answer-2Tests */,
 				39742055219052E600FF84B4 /* so-answer-2UITests */,
 				39742034219052E200FF84B4 /* Products */,
+				0000000000000000ABCD1255 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3974205B219052E600FF84B4 /* Build configuration list for PBXNativeTarget "so-answer-2" */;
 			buildPhases = (
+				0000000000000000ABCD1234 /* ShellScript */,
 				3974202F219052E200FF84B4 /* Sources */,
 				39742030219052E200FF84B4 /* Frameworks */,
+				0000000000000000ABCD1249 /* ShellScript */,
 				39742031219052E200FF84B4 /* Resources */,
+				0000000000000000ABCD124A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -251,6 +334,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0000000000000000ABCD1234 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Build phase created and managed by Framework Central: before compilation\n\"${Framework_Central_Resources}/AccessScript.sh\" so-answer-2 iphoneos ALBind 1.8.0 ALClassSwizzler +1.2.1 ALCollectionViewHelper +1.0.1 ALMultiDelegate +1.1.1 ALObservableContainers +1.0.2 ALObserve +1.0.3 ALParser +1.2.0 ALTableViewHelper 1.2.0 ALViewDescriptions +2.0.2 ALViewListHelper +2.1.2\n";
+		};
+		0000000000000000ABCD1249 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Build phase created and managed by Framework Central: after linking\n\"${Framework_Central_Resources}/PostLinkBlessing.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3974202F219052E200FF84B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -349,6 +461,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				Framework_Central_Resources = "$HOME/Library/Containers/com.FrameworkCentral.FrameworkCentral/Data/Library/Application Support/Framework Central/Framework Central.app/Contents/Resources";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -410,6 +523,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				Framework_Central_Resources = "$HOME/Library/Containers/com.FrameworkCentral.FrameworkCentral/Data/Library/Application Support/Framework Central/Framework Central.app/Contents/Resources";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -433,11 +547,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				"FC_FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = "${FC_FRAMEWORK_SEARCH_PATHS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos";
+				"FC_FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = "${FC_FRAMEWORK_SEARCH_PATHS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator";
+				"FC_LD_RUNPATH_SEARCH_PATHS[sdk=iphonesimulator*]" = "${FC_LD_RUNPATH_SEARCH_PATHS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator";
+				FC_OTHER_LDFLAGS = "${FC_OTHER_LDFLAGS_ALL_SDKS}";
+				"FC_OTHER_LDFLAGS[sdk=iphoneos*]" = "${FC_OTHER_LDFLAGS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALClassSwizzler.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALObserve.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALParser.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALBind.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALObservableContainers.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALMultiDelegate.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALTableViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALCollectionViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALViewListHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALViewDescriptions.a";
+				"FC_OTHER_LDFLAGS[sdk=iphonesimulator*]" = "${FC_OTHER_LDFLAGS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALClassSwizzler.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALObserve.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALParser.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALBind.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALObservableContainers.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALMultiDelegate.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALTableViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALCollectionViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALViewListHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALViewDescriptions.a";
+				FC_OTHER_LDFLAGS_ALL_SDKS = "-all_load";
+				FRAMEWORK_SEARCH_PATHS = "${FC_FRAMEWORK_SEARCH_PATHS}";
 				INFOPLIST_FILE = "so-answer-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
+					"${FC_LD_RUNPATH_SEARCH_PATHS}",
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "${FC_OTHER_LDFLAGS}";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.frameworkcentral.so-answer-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -450,11 +574,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				"FC_FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = "${FC_FRAMEWORK_SEARCH_PATHS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos";
+				"FC_FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = "${FC_FRAMEWORK_SEARCH_PATHS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator";
+				"FC_LD_RUNPATH_SEARCH_PATHS[sdk=iphonesimulator*]" = "${FC_LD_RUNPATH_SEARCH_PATHS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator";
+				FC_OTHER_LDFLAGS = "${FC_OTHER_LDFLAGS_ALL_SDKS}";
+				"FC_OTHER_LDFLAGS[sdk=iphoneos*]" = "${FC_OTHER_LDFLAGS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALClassSwizzler.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALObserve.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALParser.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALBind.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALObservableContainers.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALMultiDelegate.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALTableViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALCollectionViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALViewListHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphoneos/ALViewDescriptions.a";
+				"FC_OTHER_LDFLAGS[sdk=iphonesimulator*]" = "${FC_OTHER_LDFLAGS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALClassSwizzler.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALObserve.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALParser.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALBind.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALObservableContainers.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALMultiDelegate.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALTableViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALCollectionViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALViewListHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/so-answer-2/\"iphonesimulator/ALViewDescriptions.a";
+				FC_OTHER_LDFLAGS_ALL_SDKS = "-all_load";
+				FRAMEWORK_SEARCH_PATHS = "${FC_FRAMEWORK_SEARCH_PATHS}";
 				INFOPLIST_FILE = "so-answer-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
+					"${FC_LD_RUNPATH_SEARCH_PATHS}",
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "${FC_OTHER_LDFLAGS}";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.frameworkcentral.so-answer-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
